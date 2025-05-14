@@ -1,18 +1,14 @@
 import './style.css'
 import Trash from '../../assets/trash.svg'
+import api from '../../services/api'
 
 function Home() {
-    const users = [{
-        id: '3747388',
-        name: 'Fulano',
-        age: 30,
-        email: 'fulan@.com'
-    }, {
-        id: '7887666',
-        name: 'Siclano',
-        age: 60,
-        email: 'siclano@.com'
-    }]
+    const users = []
+
+    async function getUsers() {
+
+    }
+
     return (
         <div className='container'>
             <form>
